@@ -1,0 +1,15 @@
+//WAP to display Area of the circle
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+float m,r;
+clrscr();
+printf("enter the value of radius");
+scanf("%f",&r);
+m=3.14*r*r;
+printf("area of the circle is %f",m);
+getch();
+}
