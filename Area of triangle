@@ -1,0 +1,16 @@
+//WAP to display the Area of the triangle
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+float a,b,c,s,m;
+clrscr();
+printf("enter sides of triangle");
+scanf("%f%f%f",&a,&b,&c);
+s=(a+b+c)/2;
+m=sqrt(s*(s-a)*(s-b)*(s-c));
+printf("area of the triangle is %f",m);
+getch();
+}
