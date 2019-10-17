@@ -1,0 +1,15 @@
+//WAP to find Simple Interest
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+int p,r,t,si;
+clrscr();
+printf("enter the value of p,r,t");
+scanf("%d%d%d",&p,&r,&t);
+si=(p*r*t)/100;
+printf("simple interest is %d",si);
+getch();
+}
